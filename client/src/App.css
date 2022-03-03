@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.app {
+  background-color: rgba(255, 0, 140, 0.397);
+}
+.nav-option {
+  margin-top: 0.5vh;
+  display: inline-block;
+  border-top: 1px solid;
+  font-size: 5vh;
+  background-color: rgba(89, 13, 124, 0.425);
+  padding: 2%;
+  margin-left: 1vw;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  border: 1px solid;
+  background-color: rgba(231, 224, 224, 0.192);
+  margin-top: 0.5vh;
+  height: 80vh;
+  width: 98vw;
+  margin-left: 1vw;
+  align-content: center;
+  border-radius: 3px;
+  overflow-y: scroll;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo {
+  height: 5px;
+  width: 150%;
+}
+.chartheads {
+  display: grid;
+  overflow-x: hidden;
+  font-size: 12px;
+  grid-template-columns: repeat(7, 13.8vw);
+  background-color: rgb(206, 60, 199);
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.item {
+  border: 1px solid;
+  font-size: 12px;
+  background-color: white;
+  display: grid;
+  overflow: hidden;
+  font-size: 12px;
+  grid-template-columns: repeat(7, 14.5vw);
+}
+.item-name {
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item-total {
+  padding-left: 10px;
+}
+.prechange {
+  cursor: pointer;
+}
+
+.change {
+  background-color: rgba(9, 245, 9, 0.747);
+  width: 10vw;
+  cursor: pointer;
 }
